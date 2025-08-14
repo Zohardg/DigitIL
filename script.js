@@ -10,8 +10,8 @@ let params = new URLSearchParams(window.location.search);
 hamburger.addEventListener("click", function(){
     navMobile.classList.toggle("open");
     body.classList.toggle("scroll-lock")
-    bodyOverlay.classList.toggle("overlay-toggle");
     exitBtn.classList.toggle("displayBlock");
+    bodyOverlay.classList.toggle("overlay-toggle");
 });
 
 
@@ -21,8 +21,8 @@ hamburger.addEventListener("click", function(){
 exitBtn.addEventListener("click",function(){
     navMobile.classList.toggle("open");
     body.classList.toggle("scroll-lock")
-    bodyOverlay.classList.toggle("overlay-toggle");
     exitBtn.classList.toggle("displayBlock");
+    bodyOverlay.classList.toggle("overlay-toggle");
 });
 
 //--------------------------------------------------------------------------------------------------
